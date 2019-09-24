@@ -48,9 +48,9 @@ public class Product implements Comparable {
 	@Override
 	public int compareTo(Object arg0) {
 		Product p = (Product)arg0;
-//		if (this.getCode() < p.getCode())
-//			return -1;
-		return this.code.compareTo(p.getCode());
+		int c = this.code.compareTo(p.getCode()); 
+		System.out.println("comparing "+this.code+" to "+p.getCode()+"... "+c);
+		return c;
 	}
 	
 	

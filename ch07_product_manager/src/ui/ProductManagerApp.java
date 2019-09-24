@@ -24,7 +24,7 @@ public class ProductManagerApp {
 		Product html = new Product("HTML", "Murach's HTML and CSS", 55.50);
 		Product mysql = new Product("MySQL", "Murach's MySQL", 49.50);
 		
-		Product[] products = {net, java, html, mysql};
+		Product[] products = {mysql, java, html, net};
 		
 		System.out.println("List of products - unsorted");
 		for (Product p: products) {
